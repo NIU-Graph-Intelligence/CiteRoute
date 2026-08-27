@@ -1,0 +1,9 @@
+torch>=2.0
+transformers>=4.35
+polars>=0.20
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.3
+faiss-cpu>=1.7          # optional: falls back to torch matmul if absent
+tqdm>=4.65
+python-dotenv>=1.0
