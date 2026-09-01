@@ -130,12 +130,17 @@ citeroute/
 │   ├── semantic_factors          # Provided on Hugging Face
 │   │   └── <venue>/<year>/<paper_id>.json
 │   └── train_eval_set            # Provided on Hugging Face
-│       └── v2.0                  # must match DATA_VERSION in your .env
-│           ├── all_papers_with_refs_and_labels.parquet
-│           ├── train_v2.0.parquet
-│           ├── eval_v2.0.parquet
-│           ├── candidate_pool_v2.0.parquet
-│           └── eval_t4_v2.0.parquet      # Type IV eval slice
+│       ├── v7.0                  # must match DATA_VERSION in your .env
+│       │   ├── all_papers_with_refs_and_labels.parquet
+│       │   ├── train_v7.0.parquet
+│       │   ├── eval_v7.0.parquet
+│       │   ├── candidate_pool_v7.0.parquet
+│       │
+│       └── v7.0-t4
+│       │   ├── train_v7.0-t4.parquet
+│       │   ├── eval_v7.0-t4.parquet
+│       │   ├── candidate_pool_v7.0-t4.parquet
+│
 └── CiteRoute                     # this repo
 ```
 
