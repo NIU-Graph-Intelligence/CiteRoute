@@ -232,7 +232,12 @@ AISTATS, and JMLR. Coverage begins with the deep-learning era (most venues from
 
 Source code is licensed under the MIT License.
 
-The dataset is released under CC BY 4.0. This project does not claim ownership of
-paper metadata, abstracts, or PDFs retrieved from public conference and publisher
+Data created by this project is released under the
+[Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/):
+labels and LLM annotations, structured paper facets, prompts and their scores,
+train and evaluation splits, and provenance records.
+
+Third-party material is not covered by that licence. This project does not
+claim ownership of paper metadata, abstracts, or PDFs retrieved from public conference and publisher
 websites; those materials remain subject to the rights and terms of their
 respective authors, publishers, and source websites.
